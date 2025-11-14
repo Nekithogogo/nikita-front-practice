@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости - Семестровая работа</title>
+    <style>
+        /* Простая стилизация для наглядности, аналогично index.html */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        #header { background-color: #4CAF50; color: white; padding: 10px; text-align: center; }
+        #menu { background-color: #f2f2f2; padding: 0; margin: 0; }
+        #menu ul { list-style-type: none; margin: 0; padding: 0; }
+        #menu li { display: inline; }
+        #menu a { color: #000; padding: 14px 20px; text-decoration: none; display: inline-block; }
+        #menu a:hover { background-color: #ddd; }
+        #content { padding: 20px; }
+        #footer { background-color: #f2f2f2; padding: 10px; text-align: center; margin-top: 20px; }
+        .news-block { border: 1px solid #ccc; padding: 15px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <!-- Блок для хэдера из основной страницы -->
+    <div id="header">
+        <h1>Добро пожаловать на мой сайт</h1>
+    </div>
+
+    <!-- Меню навигации из основной страницы -->
+    <div id="menu">
+        <ul>
+            <li><a href="../index.html">Главная</a></li> <!-- ../ возвращает в родительскую папку -->
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="practices.html">Практики</a></li>
+            <li><a href="goods.html">Товары</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+
+    <!-- Блок основной информации -->
+    <div id="content">
+        <h2>Новости</h2>
+        <!-- Блок под каждую новость (минимум 3) -->
+        <div class="news-block">
+            <h3>Новость 1: Важное событие</h3>
+            <p><em>Дата публикации: 14.11.2025 | Автор: Nekithogogo</em></p>
+            <p>Текст первой новости. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="news-block">
+            <h3>Новость 2: Обновление проекта</h3>
+            <p><em>Дата публикации: 13.11.2025 | Автор: Nekithogogo</em></p>
+            <p>Текст второй новости. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="news-block">
+            <h3>Новость 3: Интересный факт</h3>
+            <p><em>Дата публикации: 12.11.2025 | Автор: Nekithogogo</em></p>
+            <p>Текст третьей новости. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </div>
+
+    <!-- Блок для футера из основной страницы -->
+    <div id="footer">
+        <p>&copy; 2025 Nekithogogo. Все права защищены.</p>
+    </div>
+</body>
+</html>
