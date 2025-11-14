@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- Язык документа - русский -->
+<head>
+    <meta charset="UTF-8"> <!-- Указывает кодировку текста -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Мета-тег для адаптивности -->
+    <title>Семестровая работа</title> <!-- Заголовок вкладки браузера -->
+    <style>
+        /* Простая стилизация для наглядности */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        #header { background-color: #4CAF50; color: white; padding: 10px; text-align: center; }
+        #menu { background-color: #f2f2f2; padding: 0; margin: 0; }
+        #menu ul { list-style-type: none; margin: 0; padding: 0; }
+        #menu li { display: inline; }
+        #menu a { color: #000; padding: 14px 20px; text-decoration: none; display: inline-block; }
+        #menu a:hover { background-color: #ddd; }
+        #content { padding: 20px; }
+        #footer { background-color: #f2f2f2; padding: 10px; text-align: center; margin-top: 20px; }
+        .skill-block { display: inline-block; border: 1px solid #ccc; padding: 10px; margin: 5px; width: 180px; vertical-align: top; }
+        .experience-block { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <!-- Блок хэдера -->
+    <div id="header">
+        <h1>Добро пожаловать на мой сайт</h1>
+    </div>
+
+    <!-- Меню навигации -->
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="pages/news.html">Новости</a></li>
+            <li><a href="pages/practices.html">Практики</a></li>
+            <li><a href="pages/goods.html">Товары</a></li>
+            <li><a href="pages/contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+
+    <!-- Блок основной информации -->
+    <div id="content">
+        <p>Информация об авторе</p>
+        <!-- Фото автора: пока заглушка, позже добавим реальное изображение -->
+        <img src="images/photo.png" alt="Фото автора" width="200" height="250">
+        <p>Иванов Иван Иванович</p>
+        <p>ЭФБО-00-00</p>
+        <p>Обо мне: Я родился в Москве в 70-м на краю города. Глупость рано ударила в голову. В четыре активно ругался.
+        Потом школа, форма, драки, клей. Так я становился сильней. Воровал деньги в
+        раздевалке.</p>
+
+        <!-- Блок навыков -->
+        <div>
+            <h3>Мои навыки:</h3>
+            <div class="skill-block">Навык 1: HTML</div>
+            <div class="skill-block">Навык 2: CSS</div>
+            <div class="skill-block">Навык 3: JavaScript</div>
+            <div class="skill-block">Навык 4: Git</div>
+        </div>
+
+        <!-- Блок опыта -->
+        <div>
+            <h3>Мой опыт:</h3>
+            <div class="experience-block">
+                <strong>Опыт 1</strong><br>
+                Работал фантазёром. Сочинял и праздновал.
+            </div>
+            <div class="experience-block">
+                <strong>Опыт 2</strong><br>
+                Работал воровством. Воровал и продавал.
+            </div>
+            <div class="experience-block">
+                <strong>Опыт 3</strong><br>
+                Работал рэпером. Читал и пел.
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок футера -->
+    <div id="footer">
+        <p>&copy; 2025 Nekithogogo. Все права защищены.</p>
+    </div>
+</body>
+</html>
